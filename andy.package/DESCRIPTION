@@ -1,0 +1,21 @@
+Package: andy.package
+Title: Implementations of Four Two-sample Testing Methods
+Version: 0.1.0
+Authors@R: 
+    person(given = "Andy",
+           family = "Luo",
+           role = c("aut", "cre"),
+           email = "yuhuail2@illinois.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes the specific implementations of the Nearest 
+            Neighbor Test, the Energy Distance Test, the two-sample Hotelling’s 
+            T-square test, graph-based two sample test, and permutation test. 
+            These tests are used to test for equal distributions. The first four
+            tests can be used in multivariate distributions, while the last test 
+            can only be used for univariate distributions.
+License: GPL_3
+Encoding: UTF-8
+Imports: RANN
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
